@@ -1,0 +1,220 @@
+.navbar {
+  background: none;
+  background-color: rgba(0,0,0,0.4)
+  border-width: 0 0;
+  position: absolute;
+}
+
+.list-navbar-element {
+  position: absolute;
+  right: 10px;
+  margin: 35px;
+  font-size: 25px;
+  color: white;
+  font-family: cursive, Sans-serif;
+}
+
+.list-navbar-element:hover {
+  border: 0;
+}
+
+.title {
+  font-family:Monotype Corsiva, Sans-serif;
+}
+
+#baldu {
+  font-size: 75px;
+}
+
+.banner {
+  background: linear-gradient(-225deg, rgba(0,0,58,0.6) 0%, rgba(0,0,0,0.64) 50%), url('../images/leffe.png');
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  padding: 200px 0;
+}
+
+.banner i {
+    position: absolute;
+    opacity: 0.7;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.punchline {
+  margin: 90px 330px;
+}
+
+.logo {
+  width: 100px;
+  margin: 20px;
+}
+
+/* DIV 1*/
+
+#description {
+  margin: 100px;
+}
+
+#description .inscription {
+  margin: 40px;
+}
+
+.boutton {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  margin: 40px;
+  font-size: 20px;
+}
+
+/* DIV 2 */
+
+.second {
+  background: #0A0C22;
+  color: white;
+}
+
+#pricing {
+  padding: 50px 100px 100px 100px;
+}
+
+.title-price {
+  margin-bottom: 70px;
+}
+
+.card {
+  margin: 10px 10px;
+  border: 2px;
+  border-color: white;
+  padding: 25px;
+  font-size: 20px;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px 1px
+}
+
+/* DIV 3 */
+
+#infos {
+  padding: 50px;
+}
+
+#infos h2 {
+  margin-bottom: 30px;
+}
+
+#infos p {
+  font-size: 20px;
+}
+
+.payement {
+  padding: 40px;
+}
+
+#location {
+  font-size: 19px;
+  margin: 35px;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 40px 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0c22;
+  color: white;
+}
+
+#footer .container {
+}
+
+.footer-icon {
+  font-size: 40px;
+}
+
+/* ARROW BOUNCE */
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.arrow {
+  position: absolute;
+  background-size: contain;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+/* ICON FACEBOOK FOOTER */
+
+.icon-facebook {
+  display: inline-block;
+    padding: 5px 7px;
+    text-align: center;
+    width: 32px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0 0 8px 8px;
+    background: #fff;
+    box-shadow: -1px 0 4px rgba(0,0,0,0.45), 0 6px 3px rgba(0,0,0,0.16) inset;
+    border: 1px solid #bbb;
+    opacity: 0.85;
+}
