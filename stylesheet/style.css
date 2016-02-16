@@ -27,7 +27,7 @@
 }
 
 .banner {
-  background: linear-gradient(-225deg, rgba(0,0,58,0.6) 0%, rgba(0,0,0,0.64) 50%), url('../images/cara.png');
+  background: linear-gradient(-225deg, rgba(0,0,58,0.6) 0%, rgba(0,0,0,0.64) 50%), url('../images/bal.png');
   color: white;
   background-size: cover;
   height: 100vh;
